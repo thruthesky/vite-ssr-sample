@@ -6,7 +6,7 @@
     <RouterLink to="/a">Go to A</RouterLink>
     <RouterLink to="/b">Go to B</RouterLink>
   </nav>
-  <h1>Below is the currently rendered route:</h1>
+  <h1>Below is the currently rendered route!:</h1>
 
   <RouterView v-slot="{ Component }">
     <Suspense>
